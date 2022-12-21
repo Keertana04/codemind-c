@@ -15,10 +15,7 @@
     last = sqr % den;
  
     if(last == num)
-        printf("Automorphic Number
-");
+        printf("Automorphic Number");
     else
-        printf("Not an Automorphic Number
-");
- 
-}
+        printf("Not an Automorphic Number");
+ }
