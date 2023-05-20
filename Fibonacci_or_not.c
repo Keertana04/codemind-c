@@ -6,9 +6,9 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        r=a+b;
-    a=b;
-    b=r;
+      r=a+b;
+      a=b;
+      b=r;
     if(r==n){
         j++;
     }
