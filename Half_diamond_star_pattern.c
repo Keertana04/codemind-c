@@ -5,16 +5,15 @@ int main()
     scanf("%d",&n);
      if(n<=2 || n>=100)
     {
-       printf("The pattern is not possible");
-        return 0;
+        printf("The pattern is not possible");
     }
+    else{
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=i;j++)
         {
             printf("*");
         }
-        
         printf("
 ");
     }
@@ -24,11 +23,9 @@ int main()
         {
             printf("*");
         }
-       
         printf("
 ");
-        
+    }
     }
    
- 
 }
